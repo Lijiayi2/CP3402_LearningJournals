@@ -1,0 +1,68 @@
+// Define Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+// Reset some basic elements
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Body Styles
+body {
+  font-family: $font-stack;
+  line-height: 1.6;
+}
+
+// Header Styles
+header {
+  background-color: $primary-color;
+  color: white;
+  padding: 1rem;
+
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      color: $secondary-color;
+    }
+  }
+}
+
+// Main Section
+main {
+  padding: 1rem;
+
+  section {
+    margin-bottom: 2rem;
+
+    h2 {
+      color: $primary-color;
+    }
+
+    p {
+      margin-top: 0.5rem;
+    }
+  }
+}
+
+// Footer Styles
+footer {
+  background-color: $primary-color;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}

@@ -1,0 +1,18 @@
+{
+    "name": "simple-website",
+    "version": "1.0.0",
+    "description": "A simple website using Sass and Gulp",
+    "main": "gulpfile.js",
+    "dependencies": {},
+    "devDependencies": {
+      "gulp": "^4.0.2",
+      "gulp-sass": "^5.1.0",
+      "sass": "^1.57.0"
+    },
+    "scripts": {
+      "start": "gulp"
+    },
+    "author": "Li jiayi",
+    "license": "ISC"
+  }
+  
